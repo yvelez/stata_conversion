@@ -1,1 +1,12 @@
 # stata_conversion
+This short script loads a STATA 14 .dta file in the working directory, saves it as a STATA 13 .dta file, and loads it directly into STATA using the STATA module rsource and R package haven. This script requires installation of R on your machine. 
+
+Step 1: Install rsource
+ssc install rsource
+
+Step 2: Install the newest version of haven
+devtools::install_github("tidyverse/haven")
+
+Step 3: Change rpath() to the appropriate directory on your machine
+
+Step 4: Execute code.do in STATA

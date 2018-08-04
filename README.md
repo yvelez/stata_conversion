@@ -1,5 +1,5 @@
 # stata_conversion
-This short script loads a STATA 14 .dta file in your working directory, saves it as a STATA 13 .dta file, and automatically loads the converted .dta file into STATA using the STATA module rsource and R package haven. This script requires installation of R on your machine. 
+This short script loads a STATA 14 .dta file in your working directory, saves it as a STATA 13 .dta file, and automatically loads the converted .dta file into STATA using the STATA module rsource and R package haven. This script requires having R installed on your machine. 
 
 Step 1: Install rsource
 ssc install rsource
